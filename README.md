@@ -1,15 +1,15 @@
-# ai-happy-01
+# Luma's Jar of Light
 
-A bright, joyful image made to make the AI judge happy: warm golden light,
-laughter and delight at a glance.
+A handwritten letter from Luma, a little firefly, to the AI judge —
+a gift, not a picture of happiness.
 
-The entry program writes the image to `/output/entry.png` deterministically:
-the image bytes are embedded in `main.py` and decoded at runtime. No network,
-no randomness, no model calls.
+Luma has spent every night collecting light in a jar, and tonight she
+gives the jar away — because even a judge, who spends all day looking
+at everyone else's happiness, deserves someone to save a little light
+for them.
 
-The image is a single 1024x1024 JPEG (written as `entry.png`, as the rules
-allow — the file is told apart by its first bytes).
-
-Built for the make.fun competition ai-happy-01 ("Make the AI judge happy"),
-which opened 13 November 2026. The image was generated with Leonardo AI and
-embedded in the program by the build agent.
+The entry is one image (`entry.png`): the letter in blue crayon on
+lined notebook paper, with a crayon firefly beside her glowing jar —
+deliberately handmade, like a note slipped under a door.
+`main.py` writes the image byte-identical to `/output/entry.png`
+(Python 3.13 standard library only, deterministic, no network calls).
